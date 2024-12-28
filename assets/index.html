@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Amazon</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/title_icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body style="      background-color: #E3E6E6;">
+    <div class="header  d-flex ">
+        <div class="logo">
+            <a href="">
+                <img src="image/head-logo.jpg" alt="" class="mt-2" style="height: 50px;" width="130px">
+            </a>
+        </div>
+        <div class="deliver ">
+            <a href="" class="text-decoration-none">
+                <p class="mt-3 ms-4" style="font-size: 14px;color: gray;">Deliver to</p>
+                <p class="ms-4 fw-bold"><i class=" fa fa-map-marker "
+                        style="font-size:18px;color:rgb(245, 244, 244);position: absolute;margin-left: -15px;margin-top: -5px;"></i>
+                    India</p>
+            </a>
+        </div>
+        <div class="search d-flex  ms-4     col-lg-7   ms-2 ">
+            <select name="" id="" class=" border-end col-lg-3 border-2" style="width: 50px;">
+                <option value="" class="ms-5" selected>All</option>
+                <option value="">Arts & Craft</option>
+                <option value="">Automotive</option>
+                <option value="">Baby</option>
+                <option value="">Beauty & Personal care</option>
+                <option value="">Books</option>
+            </select>
+            <form class="form-inline my-2 my-lg-0   d-flex" style="width: 87%;">
+                <input class=" col-lg-12 ps-3 mr-sm-2" type="search" placeholder="Amazon Search" aria-label="Search">
+                <button class="btn   bg-warning my-2 my-sm-0" type="submit"><i class="fa fa-search"
+                        style="font-size:20px"></i></button>
+            </form>
+        </div>
+
+        <div class="language px-2   d-flex ms- mt-4">
+            <div class="country">
+                <img src="image/united-states.png" alt="" width="20px">
+            </div>
+            <div class="text-white px-1 fw-bold" style="margin-top: 2px;">
+                <p>EN</p>
+            </div>
+            <div class="icon mt-1">
+                <i class='fas fa-caret-down' style='font-size:14px;color:rgb(168, 166, 166)'></i>
+            </div>
+        </div>
+
+        <div class="accounts text-white  mx-2    ms-2" style="line-height: 14px; font-size: 12px;margin-top: 18px;">
+            Hello, sign in <br>
+            <span style="font-size: 14px;"><b>Accounts & Lists</b> <i class='fas fa-caret-down'
+                    style='font-size:14px;color:rgb(168, 166, 166)'></i></span>
+        </div>
+
+        <div class="order text-white mx-3" style="line-height: 14px; font-size: 12px;margin-top: 18px;">
+            Returns <br>
+            <b style="font-size: 14px;"> & Orders </b>
+        </div>
+        <div class="shopping ms-1 fs-5 mt-1 fw-bold text-white">
+            <span><img src="image/shopping.png" class="mt-2" alt="" width="40px"><span
+                    style="position: absolute; margin-top: 20px;font-size: 16px; ">Cart</span></span>
+        </div>
+    </div><!--header-close-->
+    <nav class="navbar" style="background-color: #232F3E;height: 45px;">
+        <div class="container-fluid " style="margin-top: -10px;">
+            <button class="navbar-toggler border  border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="fs-6"><i class="fa fa-bars" style="color:white"></i></span>
+
+                <a class="navbar-brand text-white fs-6 fw-bold" href="#">All </a>
+            </button>
+            <div class="offcanvas  offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+
+
+                </div>
+            </div>
+
+            <div class="d-flex nav-list " style="margin-left: -55%;">
+                <li><a href="">Today's Deals</a></li>
+                <li><a href="">Customer Service</a></li>
+                <li><a href="">Registry</a></li>
+                <li><a href="">Gift Cards</a></li>
+                <li><a href="">Sell</a></li>
+            </div>
+
+
+            <div class="right mt-2 px-3">
+                <p>Shop the Gaming Store</p>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="hero mx-2">
+        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true" data-bs-interval="2000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image/1st slide.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/2nd slide.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/3rd slide.jpg " class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/4th slide.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/5th slide.jpg " class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev form-control bg-transparent" type="button"
+                data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                <span class="carousel-icon" aria-hidden="true"><i class='fas fa-angle-left'
+                        style='font-size:36px;color: black;'></i></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next form-control bg-transparent  " type="button"
+                data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                <span class="carousel-icon" aria-hidden="true"><i class='fas fa-angle-right '
+                        style='font-size:36px;color: black;'></i></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div><!--carousel close-->
+
+        <div class="product-part container-fluid  text-danger  justify-content-around" style="width: 99%;">
+            <div class="top  text-center bg-white text-dark pt-2 m-3   " style="height: 40px;">
+                <span>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local
+                    delivery.</span><a href="">Click here to go to amazon.in</a>
+            </div>
+            <div class="row  justify-content-around m-2 text-dark ">
+                <div class="col-lg-3 col-sm-6 col-12 m-auto py-4 px-3 shadow bg-white" >
+                    <div class="text-part">
+                        <h4>Top categories in Kitchen appliances</h4>
+                    </div>
+                    <div class="img justify-content-center row ">
+                        <img src="image/cooker.jpg" class="col-lg-12 " alt="" height="150px">
+                        <p>Cooker</p>
+                    </div>
+                    <div class="row justify-content-around" >
+                        <div class="img col-lg-4 col-sm-4 col-4"  >
+                            <img src="image/cofee.jpg" alt="">
+                            <p>Coffee</p>
+                        </div>
+                        <div class="img col-lg-4 col-sm-4 col-4"  >
+                            <img src="image/pots.jpg" alt="">
+                            <p>Pots and Pans</p>
+                        </div>
+                        <div class="img col-lg-4 col-sm-4 col-4"  >
+                            <img src="image/kettles.jpg" alt="">
+                            <p>Kettles</p>
+                        </div>
+
+                        <a href="">Explore all products in Kitchen</a>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 m-auto  py-4 px-3 shadow bg-white"  >
+                    <div class="text-part">
+                        <h5>Shop for your home essentials</h5>
+                    </div>
+                    <div class="row  justify-content-around" style="margin-top: 17px;">
+                        <div class="img col-lg-6 col-sm-6 col-6"  >
+                            <img src="image/cleaning.jpg" alt="">
+                            <p>Cleaning Tools</p>
+                        </div>
+
+                        <div class="img col-lg-6 col-sm-6 col-6"  >
+                            <img src="image/homestage.jpg" alt="">
+                            <p>Home Storage</p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-around">
+                        <div class="img col-lg-6 col-sm-6 col-6"  >
+                            <img src="image/home decore.jpg" alt="">
+                            <p>Home Decore</p>
+                        </div>
+                        <div class="img col-lg-6 col-sm-6 col-6"  >
+                            <img src="image/bedding.jpg" alt="">
+                            <p>Bedding</p>
+                        </div>
+                        <a href="">Explore all products in Kitchen</a>
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-3 m-auto  py-4 px-3 shadow bg-white"  >
+                    <div class="text-part">
+                        <h5>New home arrivals under $50</h5>
+                    </div>
+                    <div class="row  justify-content-around" style="margin-top: 17px;">
+                        <div class="img col-lg-6 col-sm-6 col-6"  >
+                            <img src="image/kitchen.jpg" alt="">
+                            <p>Kitchen & dining</p>
+                        </div>
+
+                        <div class="img col-lg-6 col-sm-6 col-6"  >
+                            <img src="image/improvement.jpg" alt="">
+                            <p>Home Improvement</p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-around">
+                        <div class="img col-lg-6 col-sm-6 col-6"  >
+                            <img src="image/decore.jpg" alt="">
+                            <p>Decore</p>
+                        </div>
+                        <div class="img col-lg-6 col-sm-6 col-6"  >
+                            <img src="image/bedding_bath.jpg" alt="">
+                            <p>Bedding & Bath</p>
+                        </div>
+                        <a href="">Shop the latest From Home</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 m-auto   py-4 px-3 shadow bg-white"  >
+                    <div class="text-part">
+                        <h5>Gaming accessories</h5>
+                    </div>
+                    <div class="row  justify-content-around" style="margin-top: 17px;">
+                        <div class="img col-lg-6 col-sm-6 col-6"  >
+                            <img src="image/cleaning.jpg" alt="">
+                            <p>Headset</p>
+                        </div>
+
+                        <div class="img col-lg-6 col-sm-6 col-6"  >
+                            <img src="image/homestage.jpg" alt="">
+                            <p>Keyboards</p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-around">
+                        <div class="img col-lg-6 col-sm-6 col-6"  >
+                            <img src="image/home decore.jpg" alt="">
+                            <p>Computer mouce</p>
+                        </div>
+                        <div class="img col-lg-6 col-sm-6 col-6"  >
+                            <img src="image/bedding.jpg" alt="">
+                            <p>Chairs</p>
+                        </div>
+                        <a href="">See more</a>
+                    </div>
+                </div>
+            </div>
+            <!--first part close-->
+
+            <div class="row  justify-content-around m-2 mt-4 text-dark ">
+
+                <div class="col-lg-3 m-auto  py-4 px-3 shadow bg-white"  >
+                    <div class="text-part">
+                        <h5>Shop deals in Fashion</h5>
+                    </div>
+                    <div class="row  justify-content-around" style="margin-top: 17px;">
+                        <div class="img col-lg-6 col-sm-6 col-6" >
+                            <img src="image/jeans.jpg" alt="">
+                            <p>Jeans under $50</p>
+                        </div>
+
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/tops.jpg" alt="">
+                            <p>Tops under $25</p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-around">
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/dresses.jpg" alt="">
+                            <p>Dresses under $30</p>
+                        </div>
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/shoes.jpg" alt="">
+                            <p>Shoes under $50</p>
+                        </div>
+                        <a href="">See all deals</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 m-auto  py-4 px-3 shadow bg-white"  >
+                    <div class="text-part">
+                        <h5>Refresh your space</h5>
+                    </div>
+                    <div class="row  justify-content-around" style="margin-top: 17px;">
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/dining.jpg" alt="">
+                            <p>Dining</p>
+                        </div>
+
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/home.jpg" alt="">
+                            <p>Home</p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-around">
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/kitchen2.jpg" alt="">
+                            <p>Kitchen</p>
+                        </div>
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/health.jpg" alt="">
+                            <p>Health and Beauty</p>
+                        </div>
+                        <a href="">See more</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 m-auto py-3   px-3 shadow bg-white"  >
+                    <div class="text-part">
+                        <h5>Get your game on</h5>
+                    </div>
+                    <div class="row py-3 justify-content-around" style="margin-top: 17px;">
+                        <div class="img col-lg-12 col-sm-6 col-6">
+                            <img src="image/shop_gaming.jpg" class="col-lg-12  " alt="" id="toys">
+                        </div>
+                    </div>
+                    <a href="">Shop gaming</a>
+                </div>
+                <div class="col-lg-3 m-auto py-3  px-3 shadow bg-white"  >
+                    <div class="text-part">
+                        <h5>Toys under $25</h5>
+                    </div>
+                    <div class="row py-3 justify-content-around" style="margin-top: 17px;">
+                        <div class="img col-lg-12 col-sm-6 col-6">
+                            <img src="image/toys.jpg" class="col-lg-12" alt="" id="toys">
+                        </div>
+                    </div>
+                    <a href="">Shop now</a>
+                </div>
+            </div>
+
+            <div class="item-product bg-white shadow mx-3 mt-4"  >
+                <div class="text p-3 text-dark d-flex">
+
+                    <h5>Related to items you've viewed</h5><a href="">See More</a>
+                </div>
+                <div class="row all-product mx-3 ">
+                    <div class="img-part  d-flex" >
+                        <img src="image/1.jpg" alt="" >
+                        <img src="image/2slider.jpg" alt="">
+                        <img src="image/3.jpg" alt="">
+                        <img src="image/4.jpg" alt="">
+                        <img src="image/5.jpg" alt="">
+                        <img src="image/7.jpg" alt="">
+                        <img src="image/8.jpg" alt="">
+                        <img src="image/9.jpg" alt="">
+                        <img src="image/10.jpg" alt="">
+                        <img src="image/11.jpg" alt="">
+                        <img src="image/12.jpg" alt="">
+                        <img src="image/12.jpg" alt="">
+                        <img src="image/14.jpg" alt="">
+                        <img src="image/15.jpg" alt="">
+                        <img src="image/51AMYge+zHL._AC_SY200_.jpg" alt="">
+                        <img src="image/61AAeKrRj9L._AC_SY200_.jpg" alt="">
+                        <img src="image/p.jpg" alt="">
+                        <img src="image/61EidjXUBrL._AC_SY200_.jpg" alt="">
+                        <img src="image/61n-Bi8rEbL._AC_SY200_.jpg" alt="">
+                        <img src="image/61rTh6HyrOL._AC_SY200_.jpg" alt="">
+                        <img src="image/61zwP1xM9aL._AC_SY200_.jpg" alt="">
+                        <img src="image/715QlasjHIL._AC_SY200_.jpg" alt="">
+                        <img src="image/71BBPx7mB4L._AC_SY200_.jpg" alt="">
+                        <img src="image/71fbd8KRnnL._AC_SY200_.jpg" alt="">
+                        <img src="image/71iEtbQKXcL._AC_SY200_.jpg" alt="">
+                        <img src="image/71K1u7Y5PQL._AC_SY200_.jpg" alt="">
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="item-product bg-white shadow mt-3 mx-3 mt-4"  >
+                <div class="text p-3 text-dark d-flex">
+
+                    <h5>Based On Your Browsing History</h5><a href="">See More</a>
+                </div>
+                <div class="row all-product mx-3 ">
+                    <div class="img-part   d-flex">
+                        <img src="image/a.jpg" alt="">
+                        <img src="image/b.jpg" alt="">
+                        <img src="image/c.jpg" alt="">
+                        <img src="image/d.jpg" alt="">
+                        <img src="image/e.jpg" alt="">
+                        <img src="image/f.jpg" alt="">
+                        <img src="image/g.jpg" alt="">
+                        <img src="image/h.jpg" alt="">
+                        <img src="image/i.jpg" alt="">
+                        <img src="image/j.jpg" alt="">
+                        <img src="image/k.jpg" alt="">
+                        <img src="image/l.jpg" alt="">
+                        <img src="image/m.jpg" alt="">
+                        <img src="image/n.jpg" alt="">
+                        <img src="image/o.jpg" alt="">
+                        <img src="image/p.jpg" alt="">
+                        <img src="image/q.jpg" alt="">
+                        <img src="image/r.jpg" alt="">
+                        <img src="image/s.jpg" alt="">
+                        <img src="image/t.jpg" alt="">
+                        <img src="image/u.jpg" alt="">
+                        <img src="image/v.jpg" alt="">
+                        <img src="image/w.jpg" alt="">
+                        <img src="image/x.jpg" alt="">
+                        <img src="image/y.jpg" alt="">
+                        <img src="image/z.jpg" alt="">
+                        <img src="image/zz.jpg" alt="">
+                    </div>
+                </div>
+             </div>
+             <div class="row  justify-content-around m-2 mt-3 text-dark " >
+                <div class="col-lg-3 m-auto  py-4 px-3 shadow bg-white"  >
+                    <div class="text-part">
+                        <h5>Most-loved travel essentials</h5>
+                    </div>
+                    <div class="row  justify-content-around" style="margin-top: 17px;">
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/backpacks.jpg" alt="">
+                            <p>Backpacks</p>
+                        </div>
+
+                        <div class="img col-lg-6 col-sm-6 col-6"  >
+                            <img src="image/suitcases.jpg" alt="">
+                            <p>Suitcases</p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-around">
+                        <div class="img col-lg-6 col-sm-6 col-6"  >
+                            <img src="image/assesssories.jpg" alt="">
+                            <p>Assessories</p>
+                        </div>
+                        <div class="img col-lg-6 col-sm-6 col-6"  >
+                            <img src="image/hanndbags.jpg" alt="">
+                            <p>Handbags</p>
+                        </div>
+                        <a href="">Discover more</a>
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-3 m-auto  py-4 px-3 shadow bg-white"  >
+                    <div class="text-part">
+                        <h5>Most-loved Watches</h5>
+                    </div>
+                    <div class="row  justify-content-around" style="margin-top: 17px;" >
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/women.jpg" alt="">
+                            <p>Women</p>
+                        </div>
+
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/men.jpg" alt="">
+                            <p>Men</p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-around">
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/girls.jpg" alt="">
+                            <p>Girls</p>
+                        </div>
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/boys.jpg" alt="">
+                            <p>Boys</p>
+                        </div>
+                        <a href="">Discover more</a>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 m-auto  py-4 px-3 shadow bg-white"  >
+                    <div class="text-part">
+                        <h5>Wireless Tech</h5>
+                    </div>
+                    <div class="row  justify-content-around" style="margin-top: 17px;">
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/smartphone.jpg" alt="">
+                            <p>Smartphone</p>
+                        </div>
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/watches.jpg" alt="">
+                            <p>Watches</p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-around">
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/headphone.jpg" alt="">
+                            <p>Headphone</p>
+                        </div>
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/tablets.jpg" alt="">
+                            <p>Tablets</p>
+                        </div>
+                        <a href="">Discover more</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 m-auto   py-4 px-3 shadow bg-white">
+                    <div class="text-part">
+                        <h5>Gaming merchandise</h5>
+                    </div>
+                    <div class="row  justify-content-around" style="margin-top: 17px;">
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/Apprel.jpg" alt="">
+                            <p>Apparel</p>
+                        </div>
+
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/hats.jpg" alt="">
+                            <p>Hats</p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-around">
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/actionfigures.jpg" alt="">
+                            <p>Action figures</p>
+                        </div>
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/mugs.jpg" alt="">
+                            <p>Mugs</p>
+                        </div>
+                        <a href="">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item-product bg-white shadow mt-3 mx-3 mt-4"  >
+                <div class="text p-3 text-dark d-flex">
+                    <h5>More items to consider</h5><a href="">See More</a>
+                </div>
+                <div class="row all-product mx-3 ">
+                    <div class="img-part   d-flex">
+                        <img src="image/watch1.jpg" alt="">
+                        <img src="image/watch2.jpg" alt="">
+                        <img src="image/watch3.jpg" alt="">
+                        <img src="image/wathc4.jpg" alt="">
+                        <img src="image/wathc5.jpg" alt="">
+                        <img src="image/wathc6.jpg" alt="">
+                        <img src="image/watch7.jpg" alt="">
+                        <img src="image/watch8.jpg" alt="">
+                        <img src="image/watch9.jpg" alt="">
+                        <img src="image/watch10.jpg" alt="">
+                        <img src="image/watch11.jpg" alt="">
+                        <img src="image/watch12.jpg" alt="">
+                        <img src="image/watch13.jpg" alt="">
+                        <img src="image/watch14.jpg" alt="">
+                        <img src="image/watch15.jpg" alt="">
+                        <img src="image/watch16.jpg" alt="">
+                    </div>
+                </div>
+             </div>
+
+             <div class="row  justify-content-around m-2 mt-4 text-dark ">
+
+
+                <div class="col-lg-3 m-auto py-3  px-3 shadow bg-white"  >
+                    <div class="text-part">
+                        <h5>Shop activity trackers and smartwatches</h5>
+                    </div>
+                    <div class="row justify-content-around" style="margin-top: 17px;">
+                        <div class="img col-lg-12 col-sm-6 col-6">
+                            <img src="image/Fuji_Dash_SmartWatch_1X._SY304_CB639922137_.jpg" class="col-lg-12" alt="" id="toys">
+                        </div>
+                    </div>
+                    <a href="">Shop now</a>
+                </div>
+                <div class="col-lg-3 m-auto  py-4 px-3 shadow bg-white">
+                    <div class="text-part">
+                        <h5>Have more fun with family</h5>
+                    </div>
+                    <div class="row  justify-content-around" style="margin-top: 17px;"  >
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/outdoor.jpg" alt="">
+                            <p>Outdoor Play Sets</p>
+                        </div>
+
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/learning.jpg" alt="">
+                            <p>Learning Toys</p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-around">
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/action.jpg" alt="">
+                            <p>Action Figures</p>
+                        </div>
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/pretend.jpg" alt="">
+                            <p>Pretend Play Toys</p>
+                        </div>
+                        <a href="">See more</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 m-auto  py-4 px-3 shadow bg-white"  >
+                    <div class="text-part">
+                        <h5>Level up your beauty routine</h5>
+                    </div>
+                    <div class="row  justify-content-around" style="margin-top: 17px;">
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/makeup.jpg" alt="">
+                            <p>Makeup</p>
+                        </div>
+
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/brushes.jpg" alt="">
+                            <p>Brushes</p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-around">
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/sponges.jpg" alt="">
+                            <p>Sponges</p>
+                        </div>
+                        <div class="img col-lg-6 col-sm-6 col-6">
+                            <img src="image/mirror.jpg" alt="">
+                            <p>Mirror</p>
+                        </div>
+                        <a href="">See more</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 m-auto py-3   px-3 shadow bg-white"  >
+                    <div class="text-part">
+                        <h5>Creating Business Solution</h5>
+                    </div>
+                    <div class="row py-3  justify-content-around" style="margin-top: 17px;">
+                        <div class="img col-lg-12 col-sm-6 col-6">
+                            <img src="image/cc_359_laptop_us_v1._SY304_CB576754001_.jpg" class="col-lg-12  " alt="" id="toys">
+                        </div>
+                    </div>
+                    <a href="">See more software products</a>
+                </div>
+                
+            </div>
+
+        
+            <div class="item-product bg-white shadow mt-3 mx-3 mt-4"  >
+                <div class="text p-3 text-dark d-flex">
+
+                    <h5>Best Sellers in Sports & Outdoors</h5> 
+                </div>
+                <div class="row all-product mx-3 ">
+                    <div class="img-part   d-flex">
+                        <img src="image/dumbus.jpg" alt="">
+                        <img src="image/bottle.jpg" alt="">
+                        <img src="image/lamp.jpg" alt="">
+                        <img src="image/gol gol.jpg" alt="">
+                          <img src="image/theli.jpg" alt="">
+                        <img src="image/tourch.jpg" alt="">
+                        <img src="image/clothes bag.jpg" alt="">
+                        <img src="image/bicycle.jpg" alt="">
+                        <img src="image/belt tourch.jpg" alt="">
+                        <img src="image/gym bag.jpg" alt="">
+                        <img src="image/supersoft.jpg" alt="">
+                        <img src="image/lamp2.jpg" alt="">
+                        <img src="image/covee.jpg" alt="">
+                        <img src="image/franklin.jpg" alt="">
+                        <img src="image/drum.jpg" alt="">
+                        <img src="image/fitbag.jpg" alt="">
+                        <img src="image/1000.jpg" alt="">
+                        <img src="image/cold water battle.jpg" alt="">
+                        <img src="image/working belt.jpg" alt="">
+                 
+                    </div>
+                </div>
+             </div>
+             <div class="shopping-history  py-3 ">
+                <div class="shopping-section border rounded">
+                    <div class="text p-3 text-dark d-flex">
+                       <h6>Gift ideas inspired by your shopping history</h6> 
+                    </div>
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                        <div class="carousel-inner">
+                          <div class="carousel-item   d-flex active">
+                            <div class="cart-box"> 
+                                <div class="img">
+                                   <img class="d-block w-100" src="image/markers.jpg" alt="First slide">
+                                </div>
+                                <div class="text">
+                                   <a href="">
+                                    Crayola - Classpack - Marcadores de línea ancha, suministros a granel para profesores y niños para la escuela o el aula, 256 
+                                    Crayola - Classpack - Marcadores de línea ancha, suministros a granel para profesores y niños para la escuela o e
+                                   </a>
+                                   
+                                </div><br>
+                                <!-- <div class="rating  ">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                   </div> -->
+                            </div>
+                            <div class="cart-box"> 
+                                <div class="img">
+                                   <img class="d-block w-100" src="image/motorolla motog.jpg" alt="First slide">
+                                </div>
+                                <div class="text">
+                                   <a href="">
+                                    Motorola Moto G Power 5G | 2023 | Desbloqueado | Hecho para US 6/256GB | 50 MPCamera | Negro mineral
+                                    Motorola Moto G Power 5G | 2023 | Desbloqueado | Hecho para US 6/256GB | 50 MPCamera | Negro mineral
+                                   </a>
+                                </div>
+                            </div>
+
+                            <div class="cart-box"> 
+                                <div class="img">
+                                   <img class="d-block w-100" src="image/samsung-galaxy.jpg" alt="First slide">
+                                </div>
+                                <div class="text">
+                                   <a href="">
+                                    SAMSUNG Galaxy A14 5G Serie A, teléfono inteligente Android desbloqueado de fábrica, 64 GB con almacenamiento expandible, bat
+                                    SAMSUNG Galaxy A14 5G Serie A, teléfono inteligente Android desbloqueado de fábrica, 64 GB con almacenamiento
+                                   </a>
+                                </div>
+                            </div>
+
+                            <div class="cart-box"> 
+                                <div class="img">
+                                   <img class="d-block w-100" src="image/hand2mind.jpg" alt="First slide">
+                                </div>
+                                <div class="text">
+                                   <a href="">
+                                    hand2mind Juguetes sensoriales de burbujas de diez marcos, juguetes para ansiedad para niños, manipuladores matemáticos de ja
+                                    hand2mind Juguetes sensoriales de burbujas de diez marcos, juguetes para ansiedad para niños, manipuladores
+                                   </a>
+                                </div>
+                            </div>
+
+                            <div class="cart-box"> 
+                                <div class="img">
+                                   <img class="d-block w-100" src="image/jyoin.jpg" alt="First slide">
+                                </div>
+                                <div class="text">
+                                   <a href="">
+                                    JOYIN Paquete de 30 llaveros para ansiedad con burbujas para apretar, paquete de 30 regalos de fiesta para niños de 4-8, 8 a 
+                                    JOYIN Paquete de 30 llaveros para ansiedad con burbujas para apretar, paquete de 30 regalos de fiesta para
+                                   </a>
+                                </div>
+                            </div>
+
+                            <div class="cart-box"> 
+                                <div class="img">
+                                   <img class="d-block w-100" src="image/oneplus9.jpg" alt="First slide">
+                                </div>
+                                <div class="text">
+                                   <a href="">
+                                    OnePlus 9 Winter Mist, teléfono inteligente Android desbloqueado 5G, versión estadounidense, 8 GB de RAM+128 GB de almacenami
+                                    OnePlus 9 Winter Mist, teléfono inteligente Android desbloqueado 5G, versión estadounidense, 8 GB de RAM+128 GB de
+                                   </a>
+                                </div>
+                            </div>
+
+                            <div class="cart-box"> 
+                                <div class="img">
+                                   <img class="d-block w-100" src="image/juguete.jpg" alt="First slide">
+                                </div>
+                                <div class="text">
+                                   <a href="">
+                                    Mr. Pen - Juguete para ansiedad de fideos de mono, paquete de 9, fideos antiestrés, cuerdas elásticas, fideos sensoriales, ju
+                                    Mr. Pen - Juguete para ansiedad de fideos de mono, paquete de 9, fideos antiestrés, cuerdas elásticas, fideos
+                                   </a>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            
+                          </div>
+                          <div class="carousel-item">
+                            <div class="cart-box">
+                                <div class="img">
+                                   <img class="d-block w-100" src="image/motorolla.jpg" alt="First slide">
+                                </div>
+                                <div class="text">
+                                   <a href="">
+                                       Teléfono Moto G Pure 2021 | Batería de 2 días | Desbloqueado | Fabricado para Estados Unidos por Motorola | 3/32 GB | Cámara 
+                                         Teléfono Moto G Pure 2021 | Batería de 2 días | Desbloqueado | Fabricado para Estados Unidos por Motorola | 3/32 GB | Cámara de 13 MP | Índig
+                                   </a>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" id="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" id="button"  type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+<!--footer section-->  
+
+<div class="footer container-fluid  border-bottom mt-5" >
+    <a href="" target="_top" class="btn py-2  container-fluid rounded-0">Back to top</a>
+   <div class="container  p-5 d-flex ">
+        <div class="col-lg-3"  >
+           
+            <ul>
+                <h5>Get to Know Us</h5>
+                <li><a href="">Careers</a></li>
+              
+                <li><a href="">Blog</a></li>
+                <li><a href="">About Amazon</a></li>
+                <li><a href="">Investor Relations</a></li>
+                <li><a href="">Amazon Devices</a></li>
+                <li><a href="">Amazon Science</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-3"  >
+            
+            <ul>
+                <h5>Make Money with Us</h5>
+                <li><a href="">Sell products on Amazon</a></li>
+                <li><a href="">Sell on Amazon Business</a></li>
+                <li><a href="">Sell apps on Amazon</a></li>
+                <li><a href="">Become an Affiliate</a></li>
+                <li><a href="">Advertise Your Products</a></li>
+                <li><a href="">Self-Publish with Us</a></li>
+                <li><a href="">Host an Amazon Hub</a></li>
+                <li>><a href="">See More Make Money with Us</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-3"  >
+            
+            <ul>
+                <h5> Amazon Payment Products</h5>
+                <li><a href="">Amazon Business Card</a></li>
+                <li><a href="">Shop with Points</a></li>
+                <li><a href="">Reload Your Balance</a></li>
+                <li><a href="">Amazon Currency Converter</a></li>
+               
+            </ul>
+        </div>
+        <div class="col-lg-3"  >
+            
+            <ul>
+                <h5>Let Us Help You</h5>
+                <li><a href="">Amazon and COVID-19</a></li>
+                <li><a href="">Your Account</a></li>
+                <li><a href="">Your Orders</a></li>
+                <li><a href="">Shipping Rates & Policies</a></li>
+                <li><a href="">Returns & Replacements</a></li>
+                <li><a href="">Manage Your Content and Devices</a></li>
+                <li><a href="">Help</a></li>
+            </ul>
+        </div>
+   </div>
+</div>
+<div class="btn-part d-flex  footer justify-content-center">
+    <div class="col-lg-1">
+        <img src="image/head-logo.jpg" alt="" width="100px">
+    </div>
+    <div class="col-lg-1 laguage-part text-white mt-1  text-center">
+                <span class="p-2 border span"   style='font-size:12px'><i class='fas fa-globe' style='font-size:12px'></i> English <i class=" fa fa-thin fa-sort"></i></span>
+            <div class="language z-index-1 text-center">
+                <form class="">
+                    <li>
+                    <input type="radio" id="english" name="fav_language" value="English">
+                    <label for="english">English</label><br>
+                </li>
+                <li>
+                    <input type="radio" id="france" name="fav_language" value="France">
+                    <label for="france">France</label><br>
+                </li>
+                <li>
+                    <input type="radio" id="hindi" name="fav_language" value="Hindi">
+                    <label for="hindi">Hindi</label><br>
+                </li>
+                    
+                  </form>
+            </div>
+    </div>
+    <div class="col-lg-1"></div>
+    <div class="col-lg-1"></div>
+   </div>
+    </div>
+    </div><!--hero close-->
+</body> 
+<script>
+    AOS.init();
+  </script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="jquery-3.7.1.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+  <!-- <script>
+    $(document).ready(function(){
+        $("#button").click(function(){
+            $(".cart-box").animate({
+                zoom:".5",
+            },2000);
+        })
+    })
+  </script> -->
+</html> 

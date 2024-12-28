@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background-color: #1ee9e9;
+}
+.header{
+    height: 60px;
+    background-color: black;
+}
+.search{
+     margin-top: 12px;
+   border-style: 2px solid orange;
+   height: 38px;
+}
+.search select{
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+}
+.search input{
+    outline: none;
+    border: none;
+}
+.search button{
+    border-radius: 0%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.deliver a{
+    line-height: 2px;
+    color: white;
+     background-color: blue;
+     margin-top: 20px;
+}
+ 
+ nav div li{
+margin: 10px;
+list-style: none;
+
+ }
+ nav div li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+.right{
+    color:white;
+    font-weight: 500;
+}
+.carousel{
+    z-index: 1;
+    position: relative;
+}
+.carousel button{
+    margin-bottom: 90px;
+    width: 80px;
+    height: 230px;
+    margin: 5px;
+}
+.carousel-icon i{
+    
+    opacity: 4;
+    margin-bottom: 10px;
+}
+.product-part{
+    z-index: 1;
+    color: white;
+    margin-top: -370px;
+    position: absolute;
+ 
+    
+}
+.top{
+    font-size: 14px;
+    font-weight: 500;
+}
+.top a{
+    text-decoration: none;
+    color: rgb(10, 126, 109);
+}
+.top a:hover{
+    color: red;
+    text-decoration:1px underline;
+}
+ 
+ .product-part .col-lg-3{
+width: 350px;
+ }
+.row .col-lg-4 img{
+    width: 103px;
+
+    margin-left: -5px;
+   padding-right: 5px;
+}
+.product-part .img p{
+    font-size: 13px;
+    font-weight: 500;
+}
+.product-part  .col-lg-3 a{
+    text-decoration: none;
+    color: rgb(10, 126, 109);
+    
+}
+.product-part .col-lg-3 a:hover{
+    color: red;
+    text-decoration:1px underline;
+}
+ 
+.col-lg-6 img{
+    max-width:160px;
+    height: 120px;
+    margin-left:-7px;
+}
+#toys{
+    height: 300px;
+} 
+ 
+.img-part img{
+    margin: 10px;
+}
+ 
+.item-product .text a{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 3px;
+    margin-left: 20px;
+}
+.item-product .text a{
+    text-decoration: none;
+    color: rgb(10, 126, 109);
+}
+.item-product .text a:hover{
+    color: red;
+    text-decoration:1px underline;
+    
+}
+ 
+.item-product .img-part {
+    overflow-x: scroll;
+}
+.footer{
+    background-color: #232F3E;
+}
+.footer h5{
+    color: white;
+}
+.footer .btn{
+    background-color: #37475A;
+    color: white;
+}
+.footer .btn:hover{
+    background-color: #607691;
+    color: white;
+}
+.footer li{
+    list-style:none;
+    color: white;
+}
+.footer li h5{
+    font-size: 16px;
+}
+.footer .container ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 14px;
+    line-height: 25px;
+}
+.footer  .container ul li a:hover{
+    text-decoration: underline;
+    color: white;
+    transition: .5s;
+}
+.language{
+    display: none;
+ }
+ .laguage-part:hover .language{
+    display: block;
+ }
+ .language form li{
+    margin: 20px;
+ }
+ .shopping-history .carousel-item .cart-box{
+    margin: 10px;
+    width: 200px;
+ }
+ .shopping-history .carousel-item .cart-box .text{
+    max-height: 110px;
+    overflow-y: none;
+ }
+ 
+ .shopping-history .carousel-item .cart-box a{
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 10px;
+    color: rgb(23, 86, 23);
+    font-weight: 500;
+ }
+ .shopping-history .carousel-item .cart-box a:hover{
+    color: rgb(174, 21, 21);
+  transition: 0.3s;
+ }
+
+
+ 
